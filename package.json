@@ -1,0 +1,22 @@
+{
+  "name": "fictional-character-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoganMcDonald/fictional-character-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoganMcDonald/fictional-character-assignment/issues"
+  },
+  "homepage": "https://github.com/HoganMcDonald/fictional-character-assignment#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
