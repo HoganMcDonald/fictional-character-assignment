@@ -1,20 +1,20 @@
-var app = angular.module('fictionApp', []);
+var app = angular.module('fictionApp', ['ngRoute']);
 
-// app.config(function($routeProvider) {
-//   $routeProvider.when('/', {
-//     template: 'views/partials/harry.html',
-//     controller: 'harryPotter as hp'
-//   }).when('/luna', {
-//     template: 'views/partials/luna.html',
-//     controller: 'lunaLovegood as ll'
-//   }).when('/voldemort', {
-//     templateUrl: 'views/partials/voldemort.html',
-//     controller: 'voldemort as v'
-//   });
-// });
-// 
-// app.controller('harryPotter', harryPotter);
-// app.controller('lunaLovegood', lunaLovegood);
+app.config(function($routeProvider) {
+  $routeProvider.when('/', {
+    template: 'views/partials/harry.html',
+    controller: 'harryPotter as hp'
+  }).when('/luna', {
+    template: 'views/partials/luna.html',
+    controller: 'lunaLovegood as ll'
+  }).when('/voldemort', {
+    templateUrl: 'views/partials/voldemort.html',
+    controller: 'voldemort as v'
+  });
+});
+
+app.controller('harryPotter', harryPotter);
+app.controller('lunaLovegood', lunaLovegood);
 
 function harryPotter() {
   console.log('harryPotter loaded');
