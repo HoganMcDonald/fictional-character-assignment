@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+  font-weight: 400
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(82, 60, 91);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.headerLink {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100%;
+}
+
+h2 {
+  display: inline;
+  vertical-align: middle;
+  font-family: 'open Sans';
+  color: black
+}
+
+h1 {
+  display: inline;
+  font-family: 'open Sans';
+  color: black
+}
+
+#content {
+  height: 100vh
+}
+
+#footer {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(78, 78, 78)
+}
+
+.character {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 3px;
+  border: solid 1px rgb(129, 129, 129);
+}
+
+.photo {
+  width: 30vw;
+  display: inline;
+}
+
+img {
+  width: 30vw;
+  margin: 45px;
+}
+
+.description {
+  float: right;
+  max-width: 300px;
+  text-align: center;
+  display: inline;
+  margin: 45px;
+}
